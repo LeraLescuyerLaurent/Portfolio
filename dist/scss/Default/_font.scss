@@ -1,0 +1,20 @@
+/** Importer les fonts */
+@font-face {
+    font-family: "Poppins";
+    src: url("../../font/Poppins/Poppins-Regular.ttf") format("ttf"),
+           url("../../font/Poppins/Poppins-Bold.ttf") format("ttf"),
+           url("../../font/Poppins/Poppins-SemiBold.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../../font/Inter/static/Inter-Regular.ttf") format("ttf"),
+           url("../../font/Inter/static/Inter-SemiBold.ttf") format("ttf"),
+           url("../../font/Inter/static/Inter-Bold.ttf") format("ttf");
+}
+@mixin popins() {
+    font-family: 'Poppins', sans-serif;
+}
+
+@mixin inter() {
+    font-family: 'Inter', sans-serif;
+}
